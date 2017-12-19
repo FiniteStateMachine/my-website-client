@@ -1,6 +1,10 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule } from '@angular/material';
+import { MatIconModule } from '@angular/material/icon';
 
 
 import { AppComponent } from './app.component';
@@ -18,7 +22,11 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
   ],
   imports: [
     BrowserModule,
-    FlexLayoutModule
+    HttpClientModule,
+    FlexLayoutModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

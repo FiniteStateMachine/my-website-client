@@ -1,12 +1,13 @@
 .body-intro-background {
     overflow: hidden;
-    background: #0b56b3;
+    background: #087ecc;
+    margin-bottom: 20px;
 }
 
 .body-intro-section {
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .body-intro-content {
@@ -15,8 +16,8 @@
 
 .body-content-row {
     text-align: center;
-    padding-top: 20px;
     padding-bottom: 20px;
+    background-color: #f8f8f8;
 }
 
 .body-content-column {
@@ -24,6 +25,6 @@
 }
 
 .fixed-size-img {
-    width: 347px;
+    width: 650px;
     height: 350px;
 }

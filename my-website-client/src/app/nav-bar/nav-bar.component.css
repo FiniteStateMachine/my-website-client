@@ -1,0 +1,21 @@
+.navbar {
+    background-color: #03396c; 
+    color: hsla(0,0%,100%,.87);
+}
+
+.navbar-logo {
+    padding: 15px 40px 15px 15px;
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar-link {
+    padding: 15px; 
+}
+
+.navbar-link-icon {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-width: 70px;
+}

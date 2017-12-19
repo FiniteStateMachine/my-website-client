@@ -1,3 +1,18 @@
-<p>
-  nav-bar works!
-</p>
+<nav class="navbar">
+  <div fxLayout="row" fxFlex class="navbar-content">
+    <div fxFlex fxLayoutAlign="start center">
+      <span class="navbar-logo"> Daniel Cushing </span>
+      <a mat-button routerLink="." class="navbar-link">About Me</a>
+      <a mat-button routerLink="." class="navbar-link">Portfolio</a>
+      <a mat-button routerLink="." class="navbar-link">Resume</a>
+    </div>
+    <div fxFlex fxLayoutAlign="end center">
+      <a mat-button routerLink="." class="navbar-link-icon">
+        <mat-icon svgIcon="github-light"></mat-icon>
+      </a>
+      <a mat-button routerLink="." class="navbar-link-icon">
+        <mat-icon svgIcon="linkedin-light"></mat-icon>
+      </a>
+    </div>
+  </div>
+</nav>
